@@ -5,10 +5,12 @@ import spacy  #for nlp tokenization etc
 import csv    #generate output in structured way 
 import os 
 import pandas as pd 
+
 import spacy.cli
 spacy.cli.download("en_core_web_sm")
 import en_core_web_sm
 nlp = en_core_web_sm.load()
+
 
 
 
@@ -184,7 +186,7 @@ if uploaded_files:
         df = pd.DataFrame(all_data)
         st.dataframe(df)
             
-os.remove(temp_file_path)
+    os.remove(temp_file_path)
 
 
     
