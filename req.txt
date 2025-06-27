@@ -1,5 +1,0 @@
-streamlit
-pdfplumber
-docx2txt
-spacy
-pandas
