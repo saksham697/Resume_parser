@@ -25,6 +25,7 @@ Built with **Python, spaCy, and Streamlit**, this app helps automate resume scre
 ## 🧠 Technologies Used
 
 - `Python`
+- `Regex (re module)` – for pattern-based extraction (emails, phone, CGPA, etc.)
 - `spaCy` (for NLP and text processing)
 - `pdfplumber` & `docx2txt` (for reading PDF/DOCX files)
 - `Streamlit` (to build the interactive web app)
