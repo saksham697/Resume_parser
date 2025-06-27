@@ -5,8 +5,11 @@ import spacy  #for nlp tokenization etc
 import csv    #generate output in structured way 
 import os 
 import pandas as pd 
+import spacy.cli
+spacy.cli.download("en_core_web_sm")
 import en_core_web_sm
 nlp = en_core_web_sm.load()
+
 
 
 
